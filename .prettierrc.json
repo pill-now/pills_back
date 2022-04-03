@@ -1,0 +1,14 @@
+// 복사해온거라 정확히는 해봐야 알 듯, prettier는 코드 작성 통일을 위해서 사용하는 것
+// vscode extention : prettier설치 필요
+{
+    "printWidth": 100,      // 코드 한줄이 maximum 100칸  
+    "tabWidth": 4,          // 탭 너비
+    "useTabs": true,       // 탭 사용 여부, 참이면 탭이있는 줄을 들여 쓰기
+    "semi": true,           // 코드 끝 세미콜론 사용 여부  
+    "singleQuote": true,    // 문자열 사용 시 홑따옴표 
+    "quoteProps": "consistent",  // 객체 속성에 쿼테이션 적용 방식 
+    "trailingComma": "es5", // 여러 줄을 사용할 때, 후행 콤마 사용 방식  
+    "bracketSpacing": true, // 객체 리터럴에서 괄호에 공백 삽입 여부   
+    "arrowParens": "always", // 화살표 함수 괄호 사용 방식
+    "endOfLine": "auto" // EoF 방식, OS별로 처리 방식이 다름 
+}
